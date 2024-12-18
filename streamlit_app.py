@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_modal import Modal
 
-modal = Modal(key="confirmation_modal")
+modal = Modal("Confirm", key="confirmation_modal")
 if st.button("Open Pop-up"):
     modal.open()
 
